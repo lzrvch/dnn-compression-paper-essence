@@ -1,7 +1,8 @@
 ## Hot papers on DNN compression (a-la awesome-dnn-compression)
 
-1. [Mixed precision] MIXED PRECISION DNNS: ALL YOU NEED IS A GOOD PARAMETRIZATION (ICLR 2020) [arxiv](https://arxiv.org/ftp/arxiv/papers/1905/1905.11452.pdf)
-2. LSQ+: Improving low-bit quantization through learnable offsets and better initialization (Qualcomm 2020) [arxiv](https://arxiv.org/pdf/2004.09576.pdf)
+* [Mixed precision] MIXED PRECISION DNNS: ALL YOU NEED IS A GOOD PARAMETRIZATION (ICLR 2020) [arxiv](https://arxiv.org/ftp/arxiv/papers/1905/1905.11452.pdf)
+
+* LSQ+: Improving low-bit quantization through learnable offsets and better initialization (Qualcomm 2020) [arxiv](https://arxiv.org/pdf/2004.09576.pdf)
 
 Assymetric QAT with "smart" initialization. No evident novelty. Authors "introduce" asymmetric quantization for activations and unsigned symmetric for weights, which can be efficiently computed by pre-compiling zero-point to bias of convolution. 
 Initialize weights by 3-sigma rule, find initialization for activation's quantizaters by minimization of quantization noise. 
