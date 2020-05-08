@@ -11,4 +11,4 @@ Initialize weights by 3-sigma rule, find initialization for activation's quantiz
 Demonstrates better results than [PACT 2018](https://arxiv.org/pdf/1805.06085.pdf), [DSQ 2019](https://arxiv.org/pdf/1908.05033.pdf), [QIL 2018](https://arxiv.org/pdf/1808.05779.pdf).
 Fully int4 EfficientNet-B0 has 2.3% of accuracy drop, fully int4 ResNet-18 - 0.7% of accuracy gain.
 
-
+* HAWQ-V2: Hessian Aware trace-Weighted Quantization of Neural Networks (BAIR 2019) [arxiv](https://arxiv.org/abs/1911.03852)
