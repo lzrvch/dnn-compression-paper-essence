@@ -12,3 +12,4 @@ Demonstrates better results than [PACT 2018](https://arxiv.org/pdf/1805.06085.pd
 Fully int4 EfficientNet-B0 has 2.3% of accuracy drop, fully int4 ResNet-18 - 0.7% of accuracy gain.
 
 * HAWQ-V2: Hessian Aware trace-Weighted Quantization of Neural Networks (BAIR 2019) [arxiv](https://arxiv.org/abs/1911.03852)
+* EBS: Efficient Bitwidth Search for Practical Mixed Precision Neural Network (2020) [arxiv](https://arxiv.org/pdf/2003.07577v1.pdf)
